@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Siddhant <span>Chaudhary</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#service">Service</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
+            </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#service">Service</a>
+                <a href="#contact">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="main-container">
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Siddhant</span></h1>
+                <div data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900" class="typewriter">I'm a <span class="typewriter-text"></span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">I create stunning websites and engaging digital content to help you stand out online.</p>
+                <div class="social-links">
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-twitter"></i></a>
+                    <a data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="1800">
+                    <button><a href="#contact">Hire me.</a></button>
+                </div>
+            </div>
+            <div class="image" data-aos="zoom-in" data-aos-duration="3000">
+                <img src="siddhant.JPG" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="section-container">
+            <h2 data-aos="fade-up" data-aos-duration="1500">About Me</h2>
+            <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                I'm Siddhant Chaudhary, a passionate developer, designer, and content creator with over 5 years of experience in building digital solutions. I specialize in crafting user-friendly websites and creating engaging content that resonates with audiences. When I'm not coding, you can find me exploring new design trends or sharing insights on my YouTube channel.
+            </p>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="section-container">
+            <h2 data-aos="fade-up" data-aos-duration="1500">My Skills</h2>
+            <div class="skills-list" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                <div class="skill-item">HTML & CSS</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">UI/UX Design</div>
+                <div class="skill-item">Content Creation</div>
+                <div class="skill-item">Video Editing</div>
+            </div>
+        </div>
+    </section>
+    <section id="service">
+        <div class="section-container">
+            <h2 data-aos="fade-up" data-aos-duration="1500">Services</h2>
+            <div class="services-list" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                <div class="service-item">
+                    <h3>Web Development</h3>
+                    <p>Building responsive and modern websites tailored to your needs.</p>
+                </div>
+                <div class="service-item">
+                    <h3>UI/UX Design</h3>
+                    <p>Designing intuitive and visually appealing user interfaces.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Content Creation</h3>
+                    <p>Producing engaging content for YouTube and social media platforms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="section-container">
+            <h2 data-aos="fade-up" data-aos-duration="1500">Contact Me</h2>
+            <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                Got a project in mind? Feel free to reach out! You can email me at siddhant.chaudhary@example.com or connect with me on my social media profiles.
+            </p>
+            <div class="social-links" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-twitter"></i></a>
+                <a data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+            <div class="contact-form" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                <div id="form" onsubmit="return sendMail(this);">
+                    <input type="text" name="from_name" placeholder="Your Name" required>
+                    <input type="email" name="from_email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-copyright">
+                <p>&copy; 2025 <a href="http://udayrajchaudhary.com.np/">uday-studio</a>. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+      AOS.init({offset:0,});
+      emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your EmailJS public key
+      function sendMail(form) {
+        emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
+          from_name: form.from_name.value,
+          from_email: form.from_email.value,
+          message: form.message.value,
+        })
+        .then(
+          () => {
+            alert("Message sent successfully!");
+            form.reset();
+          },
+          (error) => {
+            alert("Failed to send message: " + JSON.stringify(error));
+          }
+        );
+        return false; // Prevent page refresh
+      }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
